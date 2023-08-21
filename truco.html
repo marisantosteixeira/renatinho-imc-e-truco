@@ -16,39 +16,35 @@
     <ul>
         <li><a href="index.html">IMC</a></li>
       </ul>
-
-
-      <div>
-          <label for="equipeA">Nome da Equipe A: </label>
-          <input type="text" id="equipeA">
-          <br>
-          <button id="equipeAPonto1">add 1 ponto</button>
-          <button id="equipeAPonto3">add 3 pontos </button>
-          <button id="equipeAPonto6">add 6 pontos </button>
-          <button id="equipeAPonto12">add 12 pontos </button>
-          <br>
-          <br>
+    <div class="Placar">
+      <div class="times">
+        <h2 id="time1-name" onclick="editaNomeDoTime('time1')">Time 1</h2>
+        <p class="pontos" id="pontosTime1">0</p>
+        <button class="botao" onclick="adicionaPonto('time1', 1)">+1</button>
+        <button class="botao" onclick="adicionaPonto('time1', 3)">+3</button>
+        <button class="botao" onclick="adicionaPonto('time1', 6)">+6</button>
+        <button class="botao" onclick="adicionaPonto('time1', 12)">+12</button>
+        <button class="botao" onclick="adicionaPonto('time1', -1)">-1</button>
       </div>
-      
-      <div>
-          <label for="equipeB">Nome da Equipe B: </label>
-          <input type="text" id="equipeB">
-          <br>
-          <button id="equipeBPonto1">add 1 ponto </button>
-          <button id="equipeBPonto3">add 3 pontos </button>
-          <button id="equipeBPonto6">add 6 pontos </button>
-          <button id="equipeBPonto12">add 12 pontos</button>
+      <div class="times">
+        <h2 id="time2-name" onclick="editaNomeDoTime('time2')">Time 2</h2>
+        <p class="pontos" id="pontosTime2">0</p>
+        <button class="botao" onclick="adicionaPonto('time2', 1)">+1</button>
+        <button class="botao" onclick="adicionaPonto('time2', 3)">+3</button>
+        <button class="botao" onclick="adicionaPonto('time2', 6)">+6</button>
+        <button class="botao" onclick="adicionaPonto('time2', 12)">+12</button>
+        <button class="botao" onclick="adicionaPonto('time2', -1)">-1</button>
       </div>
-      
-      <div>
-          <br>
-          <fieldset>
-          <h2>Placar</h2>
-          <p id="placar"></p>
-      </fieldset>
+    </div>
+    <div class="contaVitoria">
+      <p>Vitórias:</p>
+      <div class="vitorias">
+        <p id="vitoriaTime1">0</p>
+        <p id="vitoriaTime2">0</p>
       </div>
-  
-
+    </div>
+    <button class="botaoNovoJogo" onclick="resetaPontos()">Novo Jogo</button>
+    <script src="script.js"></script>
     <script src="js/truco.js"></script>
     <script src="js/main.js"></script>
 </body>
