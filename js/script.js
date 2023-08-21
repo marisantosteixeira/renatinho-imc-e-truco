@@ -25,7 +25,7 @@ let calcular = function(){
         
       else{
         if( (IMC >= 25) && (IMC <  29.9) ) {
-          saida.innerHTML =  `${nome} ${idade}  ${sexo}  ${altura}  Você esta abaixo do peso levemente`
+          saida.innerHTML =  `${nome} ${idade}  ${sexo}  ${altura}  Excesso de peso`
         }
           
         else{

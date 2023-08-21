@@ -6,7 +6,7 @@
             "src": "images/image256px.png",
             "sizes": "256x256",
             "type": "image/png",
-         "purpose": "any maskable"
+           "purpose": "any maskable"
         },
         {
             "src": "images/image512px.png",
