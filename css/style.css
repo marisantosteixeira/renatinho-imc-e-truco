@@ -1,12 +1,13 @@
 body {
     margin-left: 40%;
     margin-top: 10%;
+    background-image: url("/images/image256px.png");
   }
 
   fieldset{
     border: 5px #ddd;
     box-shadow: 0px 0px 10px;
-    background-color: #ADD8E6;
+    background-color: #fbd370;
     position: absolute;
     padding: 1em 2em;
     width: 310px;
@@ -24,3 +25,9 @@ body {
     padding: 12px 20px;
     box-sizing: border-box;
   }
+h1{
+  color: white;
+}
+ p{
+  font-family:'Tahoma' ;
+ }

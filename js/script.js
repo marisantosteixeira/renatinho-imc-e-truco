@@ -11,7 +11,7 @@ let calcular = function(){
     saida = document.getElementById("resultado")
       
     if(IMC < 18.5){ 
-      saida.innerHTML = " Você esta abaixo do peso normal"
+      saida.innerHTML = nome + " Você esta abaixo do peso normal"
     }
     
     else{
